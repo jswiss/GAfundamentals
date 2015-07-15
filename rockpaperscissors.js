@@ -38,25 +38,25 @@ function getComputerMove(move) {
 function getWinner(playerMove,computerMove) {
     var winner;
    		if (playerMove === computerMove) {
-   			return('tie');
+   			console.log('tie');
 		}; 
 		else if (playerMove = 'rock'){
    			if (computerMove = 'scissors') {
-   				return('player');
+   				console.log('player');
    			} else {
-   				return('computer');
+   				console.log('computer');
    			}
    		if (playerMove = 'paper'){
    			if (computerMove = 'rock') {
-   				return('player');
+   				console.log('player');
    			} else {
-   				return('computer');
+   				console.log('computer');
    			}
 		if (playerMove = 'scissors'){
    			if (computerMove = 'paper') {
-   				return('player');
+   				console.log('player');
    			} else {
-   				return('computer');
+   				console.log('computer');
    			}
 
     return winner;
